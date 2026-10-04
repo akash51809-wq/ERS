@@ -1,109 +1,176 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Easy Recharge Solution — the transaction layer for modern recharge businesses.">
-<title>ERS — The Recharge Network</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Easy Recharge Solution — recharge API infrastructure for businesses, retailers and software platforms.">
+<title>Easy Recharge Solution — Power Your Recharge Business</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="grain"></div><div class="pointer"></div>
-<header class="topbar">
-  <a class="identity" href="#top"><img class="brand-logo" src="https://www.easyrechargesolution.com/external/backend/images/easyrechargesolution_logo.png" alt="Easy Recharge Solution"></a>
-  <div class="status"><i></i> NETWORK ONLINE <b>2008—2026</b></div>
-  <a class="login" href="/login/">PARTNER ACCESS <span>↗</span></a>
+<div class="noise"></div>
+<div class="top-strip">
+  <div><span class="dot"></span> SYSTEM ONLINE</div>
+  <div>FAST RESPONSE <i>•</i> SECURE API <i>•</i> 24×7 BUSINESS SUPPORT</div>
+  <div>EST. 2008</div>
+</div>
+
+<header class="navbar">
+  <a class="brand" href="#home"><img src="https://www.easyrechargesolution.com/external/backend/images/easyrechargesolution_logo.png" alt="Easy Recharge Solution"></a>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#solutions">Solutions</a>
+    <a href="#api">Recharge API</a>
+    <a href="#why">Why ERS</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <a class="nav-login" href="/login/">Login</a>
+    <a class="nav-cta" href="#contact">Get Started <span>↗</span></a>
+  </div>
+  <button class="menu" aria-label="Menu">☰</button>
 </header>
 
-<main id="top">
-<section class="opening">
-  <div class="side-index">ERS / 001<br><span>TRANSACTION<br>NETWORK</span></div>
-  <div class="headline">
-    <p class="kicker">THE RECHARGE NETWORK</p>
-    <h1>Every<br><em>rupee</em><br>has a route.</h1>
-    <p class="intro">ERS connects your software to the recharge transaction—quietly, quickly and with the visibility your business needs.</p>
-    <a class="launch" href="#network"><span>ENTER THE NETWORK</span><b>↓</b></a>
-  </div>
-  <div class="planet-wrap" aria-label="Animated recharge transaction network">
-    <div class="planet-shadow"></div>
-    <div class="planet">
-      <div class="planet-core"><span>ERS</span><strong>LIVE</strong></div>
-      <i class="ring r1"></i><i class="ring r2"></i><i class="ring r3"></i>
-      <i class="sat s1"></i><i class="sat s2"></i><i class="sat s3"></i>
-      <div class="orbit-label l1">REQUEST</div><div class="orbit-label l2">ROUTE</div><div class="orbit-label l3">SETTLE</div>
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow"><span>RECHARGE BUSINESS INFRASTRUCTURE</span><b>01</b></div>
+    <h1>Power your<br><span>recharge</span><br>business.</h1>
+    <p>Connect your app, website or business software with a dependable recharge API built for speed, control and scale.</p>
+    <div class="hero-buttons">
+      <a class="primary-btn" href="#api">Explore Recharge API <span>→</span></a>
+      <a class="text-btn" href="#contact">Talk to ERS <span>↗</span></a>
     </div>
-    <div class="floating-readout"><small>NETWORK PULSE</small><strong id="pulse">2,486</strong><span>transactions / sec</span></div>
-  </div>
-  <div class="edge-note">SCROLL TO MAP<br><span>01 — 07</span></div>
-</section>
-
-<section class="ticker"><div>98XXXXXXXX&nbsp;&nbsp;→&nbsp;&nbsp;₹299&nbsp;&nbsp;→&nbsp;&nbsp;AIRTEL&nbsp;&nbsp;→&nbsp;&nbsp;ROUTED&nbsp;&nbsp;→&nbsp;&nbsp;SUCCESS&nbsp;&nbsp;&nbsp;&nbsp;98XXXXXXXX&nbsp;&nbsp;→&nbsp;&nbsp;₹199&nbsp;&nbsp;→&nbsp;&nbsp;JIO&nbsp;&nbsp;→&nbsp;&nbsp;ROUTED&nbsp;&nbsp;→&nbsp;&nbsp;SUCCESS&nbsp;&nbsp;&nbsp;&nbsp;</div></section>
-
-<section id="network" class="network">
-  <div class="chapter"><span>02</span><div><small>MAP THE FLOW</small><h2>Recharge,<br>without the noise.</h2></div><p>One request enters. ERS validates it, finds its route, processes the transaction and returns the result to your software.</p></div>
-  <div class="map">
-    <div class="map-grid"></div>
-    <div class="route-line route-a"></div><div class="route-line route-b"></div><div class="route-line route-c"></div>
-    <div class="station st-user"><b>01</b><strong>YOUR<br>SOFTWARE</strong><small>REQUEST</small></div>
-    <div class="station st-ers active"><b>02</b><strong>ERS<br>NETWORK</strong><small>VALIDATE / ROUTE</small></div>
-    <div class="station st-op"><b>03</b><strong>OPERATOR<br>NETWORK</strong><small>PROCESS</small></div>
-    <div class="station st-return"><b>04</b><strong>STATUS<br>RETURN</strong><small>SUCCESS / FAILED</small></div>
-    <div class="traveler t1"></div><div class="traveler t2"></div>
-    <div class="map-center">TRANSACTION<br><strong>ROUTE</strong></div>
-  </div>
-</section>
-
-<section class="numbers">
-  <div class="chapter compact"><span>03</span><div><small>THE SCALE</small><h2>Small action.<br>Big system.</h2></div></div>
-  <div class="number-field">
-    <article><strong data-count="2008">2008</strong><span>FOUNDATION</span><p>Built around the recharge business, with a long-term focus on dependable service.</p></article>
-    <article><strong>24<span>×</span>7</strong><span>SUPPORT WINDOW</span><p>When a transaction matters, the infrastructure should not disappear.</p></article>
-    <article><strong>01</strong><span>API LAYER</span><p>One focused connection between your product and the recharge workflow.</p></article>
-  </div>
-</section>
-
-<section class="experience">
-  <div class="chapter"><span>04</span><div><small>WHAT YOUR CUSTOMER SEES</small><h2>Almost<br>nothing.</h2></div><p>The best infrastructure is felt as speed. Your brand owns the interface; ERS handles the transaction layer behind it.</p></div>
-  <div class="phone-stage">
-    <div class="phone">
-      <div class="phone-notch"></div><div class="phone-top"><span>YOUR APP</span><i>9:41</i></div>
-      <div class="phone-balance">₹ 12,480.00<small>AVAILABLE BALANCE</small></div>
-      <div class="phone-field"><small>MOBILE NUMBER</small><b>98XXXXXXXX</b></div>
-      <div class="phone-field"><small>AMOUNT</small><b>₹299</b></div>
-      <div class="phone-button">RECHARGE <span>→</span></div>
-      <div class="phone-success"><i>✓</i><b>Recharge successful</b><small>ERS-48291 · just now</small></div>
+    <div class="hero-proof">
+      <div><strong>2008</strong><small>Since</small></div>
+      <div><strong>24×7</strong><small>Support</small></div>
+      <div><strong>API</strong><small>Business Ready</small></div>
     </div>
-    <div class="orbit-word ow1">YOUR BRAND</div><div class="orbit-word ow2">YOUR CUSTOMER</div><div class="orbit-word ow3">ERS CORE</div>
+  </div>
+  <div class="hero-visual">
+    <div class="visual-glow"></div>
+    <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <div class="phone-card">
+      <div class="phone-head"><span>ERS BUSINESS</span><b>9:41</b></div>
+      <div class="phone-title">Recharge<br><em>successful.</em></div>
+      <div class="success-card"><div class="check">✓</div><div><b>₹299 Recharge</b><small>Airtel · 98XXXXXX86</small></div><span>SUCCESS</span></div>
+      <div class="mini-row"><span>Transaction ID</span><b>ERS-48291</b></div>
+      <div class="mini-row"><span>Response time</span><b>0.82 sec</b></div>
+      <div class="mini-row"><span>API status</span><b class="live">● LIVE</b></div>
+      <div class="phone-btn">NEW RECHARGE <span>→</span></div>
+    </div>
+    <div class="float-card card-fast"><span>⚡</span><div><b>FAST API</b><small>Built for live transactions</small></div></div>
+    <div class="float-card card-secure"><span>✓</span><div><b>SECURE</b><small>Business-first access</small></div></div>
+    <div class="float-card card-live"><i></i><div><b>NETWORK LIVE</b><small>Transaction ready</small></div></div>
   </div>
 </section>
 
-<section class="architecture">
-  <div class="chapter compact"><span>05</span><div><small>BUILT IN LAYERS</small><h2>One core.<br>Many businesses.</h2></div></div>
-  <div class="layer-stack">
-    <div class="layer l-customer"><span>04</span><b>CUSTOMER EXPERIENCE</b><em>Your website · app · portal</em></div>
-    <div class="layer l-business"><span>03</span><b>BUSINESS LOGIC</b><em>Wallet · reports · controls</em></div>
-    <div class="layer l-ers"><span>02</span><b>ERS TRANSACTION CORE</b><em>Validation · routing · status</em></div>
-    <div class="layer l-network"><span>01</span><b>OPERATOR NETWORK</b><em>Recharge destination</em></div>
+<div class="trust-bar">
+  <span>BUILT FOR RECHARGE BUSINESSES</span>
+  <b>Mobile Recharge</b><b>Recharge API</b><b>Retailer Software</b><b>Reseller Platforms</b><b>Desi Pe</b>
+</div>
+
+<section id="solutions" class="solutions section">
+  <div class="section-head">
+    <div><span class="section-no">02</span><div><small>WHAT WE POWER</small><h2>One platform.<br><em>Multiple possibilities.</em></h2></div></div>
+    <p>ERS is focused on the recharge ecosystem—giving businesses the connection, tools and support they need to serve their customers.</p>
+  </div>
+  <div class="service-grid">
+    <article class="service featured">
+      <div class="service-icon api-icon"><span>&lt;/&gt;</span></div>
+      <span class="service-no">01</span>
+      <h3>Recharge API</h3>
+      <p>Integrate recharge transactions directly into your own application, portal or software.</p>
+      <a href="#api">Explore API <span>↗</span></a>
+      <div class="service-line"></div>
+    </article>
+    <article class="service">
+      <div class="service-icon mobile-icon"><span>₹</span></div>
+      <span class="service-no">02</span>
+      <h3>Mobile Recharge</h3>
+      <p>A simple customer experience backed by a business-focused recharge infrastructure.</p>
+      <a href="#contact">Know more <span>↗</span></a>
+    </article>
+    <article class="service">
+      <div class="service-icon software-icon"><span>▦</span></div>
+      <span class="service-no">03</span>
+      <h3>Business Software</h3>
+      <p>Connect recharge functionality with your existing business workflow and customer platform.</p>
+      <a href="#contact">Discuss your setup <span>↗</span></a>
+    </article>
+    <article class="service dark-service">
+      <div class="service-icon desi-icon"><span>DP</span></div>
+      <span class="service-no">04</span>
+      <h3>Desi Pe</h3>
+      <p>Our B2C mobile recharge experience—built for customers who want recharge to stay simple.</p>
+      <a href="#contact">Visit Desi Pe <span>↗</span></a>
+    </article>
   </div>
 </section>
 
-<section class="signal">
-  <div class="signal-orbit"></div>
-  <div class="signal-copy"><span>06 / THE ERS SIGNAL</span><h2>Make the<br>complex<br><em>disappear.</em></h2><p>Fast response. Clear transaction status. Secure request handling. Business-first support. The things underneath your product should simply work.</p></div>
-  <div class="signal-list"><div><b>01</b><strong>FAST</strong><span>Response-focused API flow</span></div><div><b>02</b><strong>VISIBLE</strong><span>Know what happened to a transaction</span></div><div><b>03</b><strong>SECURE</strong><span>Built for controlled business access</span></div><div><b>04</b><strong>SUPPORTED</strong><span>24×7 business support</span></div></div>
+<section class="stats">
+  <div class="stats-intro"><span>03 / THE ERS STORY</span><h2>Experience<br>that stays<br><em>relevant.</em></h2><p>Since 2008, Easy Recharge Solution has stayed focused on dependable recharge business infrastructure.</p></div>
+  <div class="stats-grid">
+    <div><strong>18<span>+</span></strong><small>YEARS OF EXPERIENCE</small><p>Long-term understanding of the recharge business.</p></div>
+    <div><strong>24<span>×</span>7</strong><small>BUSINESS SUPPORT</small><p>Help when your transaction flow matters.</p></div>
+    <div><strong>01</strong><small>FOCUSED API ECOSYSTEM</small><p>Recharge is the core—not an endless list of unrelated services.</p></div>
+    <div class="stat-note"><b>QUALITY + IMANDARI</b><p>Our operating principle is simple: do the work properly and stand behind it.</p></div>
+  </div>
 </section>
 
-<section class="launch-section">
-  <div class="chapter"><span>07</span><div><small>START A CONNECTION</small><h2>Bring your<br><em>business.</em></h2></div><p>Have a recharge product, portal or software to connect? Start with ERS.</p></div>
-  <div class="launch-grid">
-    <a href="mailto:easyrechargesolution@gmail.com"><small>EMAIL</small><strong>easyrechargesolution<br>@gmail.com</strong><span>↗</span></a>
-    <a href="https://wa.me/919335819686"><small>WHATSAPP</small><strong>+91 93358 19686</strong><span>↗</span></a>
-    <div><small>BASE</small><strong>PRAYAGRAJ<br>INDIA</strong><span>ERS</span></div>
+<section id="api" class="api-section section">
+  <div class="api-head"><div><span class="section-no">04</span><small>THE CONNECTION</small><h2>Your software.<br><em>Our recharge layer.</em></h2></div><p>Keep your own customer experience. ERS handles the recharge connection underneath it.</p></div>
+  <div class="api-flow">
+    <div class="flow-node your"><small>01</small><div class="node-icon">▣</div><b>YOUR SOFTWARE</b><span>App · Website · Portal</span></div>
+    <div class="flow-arrow"><i></i><span>API REQUEST</span></div>
+    <div class="flow-node ers"><small>02</small><div class="node-icon">ERS</div><b>ERS API</b><span>Validate · Process · Respond</span></div>
+    <div class="flow-arrow"><i></i><span>RECHARGE</span></div>
+    <div class="flow-node operator"><small>03</small><div class="node-icon">₹</div><b>OPERATOR</b><span>Transaction network</span></div>
+    <div class="flow-return"><span>SUCCESS / STATUS</span><b>↩</b></div>
   </div>
+  <div class="api-bottom"><span>ONE INTEGRATION</span><strong>→</strong><span>REAL-TIME TRANSACTION FLOW</span><strong>→</strong><span>YOUR CUSTOMER</span></div>
+</section>
+
+<section id="why" class="why section">
+  <div class="why-head"><span class="section-no">05</span><div><small>WHY BUSINESSES CHOOSE ERS</small><h2>Built around<br><em>your business.</em></h2></div></div>
+  <div class="why-list">
+    <article><b>01</b><div><h3>Fast</h3><p>Designed around responsive recharge transaction processing.</p></div><span>→</span></article>
+    <article><b>02</b><div><h3>Reliable</h3><p>Clear transaction outcomes help your software handle the next step.</p></div><span>→</span></article>
+    <article><b>03</b><div><h3>Secure</h3><p>Business access and API communication should be treated as infrastructure.</p></div><span>→</span></article>
+    <article><b>04</b><div><h3>Scalable</h3><p>Start with your current business and build toward larger transaction volumes.</p></div><span>→</span></article>
+    <article><b>05</b><div><h3>Supported</h3><p>24×7 support for the business workflows that depend on recharge.</p></div><span>→</span></article>
+  </div>
+</section>
+
+<section class="business-models section">
+  <div class="section-head"><div><span class="section-no">06</span><div><small>WHO IT IS FOR</small><h2>Choose your<br><em>business model.</em></h2></div></div><p>Whether you are building software or running a recharge operation, ERS gives you a clear starting point.</p></div>
+  <div class="model-grid">
+    <article><span>01</span><div class="model-art"><div class="stack-card"></div><div class="stack-card"></div><div class="stack-card main">API</div></div><h3>API Partner</h3><p>Connect your existing software with recharge.</p><a href="#contact">Start integration →</a></article>
+    <article><span>02</span><div class="model-art"><div class="dashboard-card"><i></i><i></i><i></i><b>₹ 24,890</b></div></div><h3>Recharge Business</h3><p>Build and operate your own recharge workflow.</p><a href="#contact">Build your setup →</a></article>
+    <article><span>03</span><div class="model-art"><div class="people-card"><b>R</b><b>R</b><b>R</b><span>+ 128</span></div></div><h3>Retail / Reseller</h3><p>Serve your network with a dependable recharge layer.</p><a href="#contact">Talk to ERS →</a></article>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="testimonial-title"><span>07 / TRUST</span><h2>What business<br>users value.</h2><p>Simple recharge workflows, dependable support and an infrastructure they can build around.</p></div>
+  <div class="quote"><div class="quote-mark">“</div><blockquote>For a recharge business, consistency matters more than noise. ERS keeps the transaction layer focused on what actually matters.</blockquote><div class="quote-person"><div class="avatar">B</div><div><b>Business Partner</b><span>ERS Recharge Ecosystem</span></div></div></div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contact-orb"></div>
+  <div class="contact-copy"><span>08 / LET'S BUILD</span><h2>Ready to power<br>your <em>recharge business?</em></h2><p>Tell us what you are building. We will help you choose the right way to connect with ERS.</p><div class="contact-buttons"><a class="white-btn" href="mailto:easyrechargesolution@gmail.com">Start a conversation ↗</a><a class="outline-btn" href="https://wa.me/919335819686">WhatsApp us ↗</a></div></div>
+  <div class="contact-card"><small>EASY RECHARGE SOLUTION</small><strong>Power Your Recharge<br>Business with ERS API.</strong><div><span>PRAYAGRAJ, INDIA</span><span>+91 93358 19686</span></div><a href="mailto:easyrechargesolution@gmail.com">easyrechargesolution@gmail.com</a></div>
 </section>
 </main>
 
-<footer><div><img class="footer-logo" src="https://www.easyrechargesolution.com/external/backend/images/easyrechargesolution_logo.png" alt="Easy Recharge Solution"><strong>EASY RECHARGE SOLUTION</strong></div><p>Power Your Recharge Business with Easy Recharge Solution API.</p><div><a href="/login/">PARTNER ACCESS</a><a href="#network">NETWORK</a></div><small>© <span id="year"></span> ERS · ALL RIGHTS RESERVED</small></footer>
+<footer>
+  <div class="footer-brand"><img src="https://www.easyrechargesolution.com/external/backend/images/easyrechargesolution_logo.png" alt="Easy Recharge Solution"><span>Power Your Recharge Business with Easy Recharge Solution API.</span></div>
+  <div class="footer-links"><a href="#solutions">Solutions</a><a href="#api">Recharge API</a><a href="#why">Why ERS</a><a href="/login/">Login</a></div>
+  <div class="footer-bottom"><span>© <b id="year"></b> Easy Recharge Solution</span><span>QUALITY · IMANDARI · SUPPORT</span></div>
+</footer>
 <script src="script.js"></script>
-</body></html>
+</body>
+</html>
