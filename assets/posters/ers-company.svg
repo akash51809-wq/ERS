@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t">
+<title id="t">B2B Software Company</title>
+<rect width="1600" height="900" fill="#051A2D"/>
+<rect x="70" y="70" width="1460" height="760" rx="18" fill="#0B263B" stroke="#10BBC3" stroke-opacity=".35" stroke-width="2"/>
+<path d="M110 710H1490" stroke="#FFFFFF" stroke-opacity=".12" stroke-width="2"/>
+<g fill="#10BBC3" opacity=".9"><rect x="112" y="112" width="70" height="8"/><rect x="112" y="132" width="40" height="5"/></g>
+<text x="112" y="190" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="54" font-weight="700">B2B Software Company</text>
+<text x="112" y="235" fill="#A9C0C7" font-family="Arial,sans-serif" font-size="22">EASY RECHARGE SOLUTION · BUSINESS TECHNOLOGY</text>
+<g transform="translate(850 300)"><rect x="0" y="0" width="570" height="330" fill="#FFFFFF" stroke="#D8DEDB" stroke-width="3"/><rect x="0" y="0" width="570" height="58" fill="#10BBC3"/><text x="28" y="37" fill="#051A2D" font-family="Arial" font-size="20" font-weight="700">ERS · COMPANY</text><g font-family="Arial"><text x="32" y="110" fill="#64737C" font-size="16">1000+ SHOPS &amp; OUTLETS</text><text x="32" y="170" fill="#64737C" font-size="16">75+ API PARTNERS</text><text x="32" y="230" fill="#64737C" font-size="16">25+ STATES COVERED</text><rect x="350" y="88" width="175" height="170" fill="#051A2D"/><text x="380" y="135" fill="#10BBC3" font-size="15">SERVICE</text><text x="380" y="175" fill="#FFFFFF" font-size="26" font-weight="700">company</text><text x="380" y="215" fill="#FEA24F" font-size="14">READY FOR BUSINESS</text></g></g>
+<rect x="112" y="750" width="270" height="34" fill="#A60E35"/><text x="130" y="774" fill="#051A2D" font-family="Arial" font-size="14" font-weight="700">POWER YOUR DIGITAL BUSINESS</text>
+</svg>
