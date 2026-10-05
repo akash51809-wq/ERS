@@ -14,3 +14,20 @@
 .desipe-image{min-width:0}
 @media(max-width:1100px){.desipe-inner{grid-template-columns:1fr 1fr;gap:34px}.desipe-image{grid-column:1/-1;order:0}.desipe-board{order:2}}
 @media(max-width:900px){.desipe-inner{grid-template-columns:1fr}.desipe-image,.desipe-board{grid-column:auto;order:initial}}
+
+/* Premium navbar refinement — visual only */
+.site-header{background:rgba(255,255,255,.94);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 4px 24px rgba(5,26,45,.07)}
+.header-inner{max-width:1360px}
+.brand img{filter:drop-shadow(0 5px 10px rgba(5,26,45,.10))}
+.main-nav{gap:4px;min-height:58px;padding:5px;background:linear-gradient(135deg,#071d2f,#0b3047);border:1px solid rgba(255,255,255,.13);border-radius:32px;box-shadow:0 12px 28px rgba(5,26,45,.20),inset 0 1px 0 rgba(255,255,255,.08)}
+.main-nav a{width:52px;height:48px;border:1px solid transparent;color:#b9cbd2;transition:all .35s cubic-bezier(.2,.8,.2,1)}
+.main-nav a .nav-icon{width:24px;height:24px;color:#10bbc3}
+.main-nav a.active{width:148px;background:linear-gradient(135deg,#10bbc3,#0aa5ae);color:#041b2b;border-color:rgba(255,255,255,.28);box-shadow:0 8px 20px rgba(16,187,195,.28),inset 0 1px 0 rgba(255,255,255,.35)}
+.main-nav a.active .nav-icon{color:#051a2d}
+.main-nav a:hover:not(.active){background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.10);transform:translateY(-2px);box-shadow:0 7px 16px rgba(0,0,0,.14)}
+.main-nav a:hover:not(.active) .nav-icon{color:#fff;transform:scale(1.14) rotate(-4deg)}
+.header-actions{border-left:1px solid #d7e0dd}
+.header-actions .login{border-radius:10px}
+.header-actions .contact-link{border-radius:11px;box-shadow:0 8px 18px rgba(5,26,45,.14)}
+.header-actions .contact-link:hover{transform:translateY(-2px);box-shadow:0 12px 24px rgba(5,26,45,.18)}
+@media(max-width:900px){.site-header{box-shadow:0 4px 18px rgba(5,26,45,.08)}.menu{border-radius:10px;box-shadow:0 6px 16px rgba(5,26,45,.10)}.site-header.mobile-open .main-nav{box-shadow:none}}
